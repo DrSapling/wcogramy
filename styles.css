@@ -1,0 +1,64 @@
+@media (orientation: landscape) {
+    body {
+        background-image: url("images/background.jpg");
+        background-position: center;
+        background-size: 100vw;
+    }
+    #cover_image {
+        background-size: 50vh;
+        width: 50vh;
+        height: 75vh;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background-image: url("images/background.jpg");
+        background-position: center;
+        background-size: 100vh;
+    }
+    #cover_image {
+        background-size: 50vw;
+        width: 50vw;
+        height: 75vw;
+    }
+}
+
+#darkener {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+#cover {
+    position: fixed;
+    left: 0vw;
+    top: 87.5vh;
+    width: 100vw;
+    height: 100vh
+}
+
+#cover_image {
+    background-image: url("images/null.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+}
+
+#text {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 30px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0), 0 0 70px rgb(0, 0, 0), 0 0 100px rgb(0, 0, 0);
+    left: 50vw;
+    top: 50vh;
+    font-size: 15vh;
+}

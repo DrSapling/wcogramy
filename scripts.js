@@ -121,13 +121,7 @@ games_index_names[6] = 'seaOfThieves';
 games_index_names[7] = 'NULL';
 
 function getWeekNumber() {
-    var date = new Date();
-    if (date.getFullYear() > 2021) {
-        return 63
-    }
-    else {
-        return date.getWeek();
-    }
+    return date.getWeek();
 }
 
 function get_cover_file () {

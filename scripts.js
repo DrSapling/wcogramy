@@ -122,7 +122,7 @@ games_index_names[7] = 'NULL';
 
 function getWeekNumber() {
     var date = new Date();
-    if (date.getFullYear() > 2021) {
+    if (date.getFullYear() > date.getFullYear()) {
         return 63
     }
     else {

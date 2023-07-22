@@ -1,7 +1,7 @@
 # wcogramy.kolpaki.net
 
 <a href="wcogramy.kolpaki.net">
-<img src="https://raw.githubusercontent.com/DrSapling/wcogramy/images/site.png">
+<img src="https://raw.githubusercontent.com/DrSapling/wcogramy/main/images/site.png">
 </a>
 
 <hr>

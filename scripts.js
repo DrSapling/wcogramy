@@ -121,6 +121,7 @@ games_index_names[6] = 'seaOfThieves';
 games_index_names[7] = 'NULL';
 
 function getWeekNumber() {
+    var date = new Date();
     return date.getWeek();
 }
 

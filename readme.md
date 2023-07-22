@@ -7,4 +7,4 @@
 <hr>
 
 Strona ta pokazuje jedną z wylosowanych gier na dany dzień
-(wcogramy.kolpaki.net)[wcogramy.kolpaki.net]
+[wcogramy.kolpaki.net](wcogramy.kolpaki.net)
